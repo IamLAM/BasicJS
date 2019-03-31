@@ -1,4 +1,3 @@
-/* Basic course of JS*/
 var a = 5 + 5;
 var b = 5.5;
 var name = "Pilar";
