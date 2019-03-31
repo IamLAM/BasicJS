@@ -5,7 +5,11 @@ var name = "Pilar";
 var middle = "Schnaider";
 var p = 'look this "rabbit"';
 var p2 = "\\look this \"lion\"";
-
+var drinks = ["vodka", "beer", "cognac", "wine"]; //simple array
+var drinks = [
+    ["Beer", 1],
+    ["milk"], 1
+]; //multidimensional array
 
 
 p2 += "A \nnew \tanimal";
