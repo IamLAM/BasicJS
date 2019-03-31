@@ -10,6 +10,14 @@ var drinks = [
     ["Beer", 1],
     ["milk"], 1
 ]; //multidimensional array
+var numbers = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [
+        [10, 11, 12], 13, 14
+    ]
+];
 
 
 p2 += "A \nnew \tanimal";
@@ -19,3 +27,4 @@ console.log(b);
 console.log(name + middle);
 console.log(p2.length); //letters count
 console.log(p2[0]); //letters count
+console.log(numbers[3][0]); //access a multi array
