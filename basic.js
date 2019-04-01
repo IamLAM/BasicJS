@@ -93,3 +93,17 @@ function conditions(ans) {
 
 var con = conditions(true);
 console.log(con);
+
+//strict equality operator
+function conditionsE(a, b) {
+
+    if (a === b) { ///verify data type and ans=="5" will convert the value
+        return "hello";
+    } else {
+        return "bye";
+    }
+
+}
+
+var con = conditionsE(5, "5");
+console.log(con);
