@@ -18,11 +18,16 @@ var numbers = [
         [10, 11, 12], 13, 14
     ]
 ];
-
-drinks.push("pepsi"); // push value, last value
-
 p2 += "A \nnew \tanimal";
 a++; //autoincrement
+
+
+//functions
+drinks.push("pepsi"); // push value, last value
+console.log(drinks);
+drinks.pop(); // delete the last value
+console.log(drinks);
+
 
 console.log(a);
 console.log(b);
