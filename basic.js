@@ -55,6 +55,16 @@ function sum(a, b) {
 
 sum(5, 5);
 
+//function and return value
+function greetings() {
+
+    return "Good Morning";
+}
+var g = greetings()
+console.log(g);
+
+
+
 //local and global scope
 
 var smile = 1;
