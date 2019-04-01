@@ -19,9 +19,11 @@ var numbers = [
     ]
 ];
 
+drinks.push("pepsi"); // push value, last value
 
 p2 += "A \nnew \tanimal";
 a++; //autoincrement
+
 console.log(a);
 console.log(b);
 console.log(name + middle);
