@@ -97,13 +97,25 @@ console.log(con);
 //strict equality operator
 function conditionsE(a, b) {
 
-    if (a === b) { ///verify data type and ans=="5" will convert the value
+    if (a !== b) { ///verify data type and ans=="5" will convert the value
         return "hello";
     } else {
         return "bye";
     }
 
 }
+// others operators != , >,<, >=,<=, !==
 
 var con = conditionsE(5, "5");
 console.log(con);
+
+//
+function operators(a, b) {
+
+    if (a < 5 && b > 5) {
+        console.log("It is magic");
+    } else {
+        console.log("Duuh");
+    }
+}
+operators(10, 10);
