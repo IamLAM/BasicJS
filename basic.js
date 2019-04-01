@@ -79,3 +79,17 @@ function happy() {
 }
 //console.log(sad); //undefined
 happy();
+
+//conditional logic
+function conditions(ans) {
+
+    if (ans) {
+        return "hello";
+    } else {
+        return "bye";
+    }
+
+}
+
+var con = conditions(true);
+console.log(con);
