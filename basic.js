@@ -54,3 +54,18 @@ function sum(a, b) {
 }
 
 sum(5, 5);
+
+//local and global scope
+
+var smile = 1;
+
+function happy() {
+
+    var sad = 1;
+    console.log(smile); //global scope
+    console.log(sad); //local scope
+
+
+}
+//console.log(sad); //undefined
+happy();
