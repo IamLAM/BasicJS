@@ -47,7 +47,7 @@ function hi() {
 }
 
 hi();
-
+//functions with arguments
 function sum(a, b) {
 
     console.log(a + b);
