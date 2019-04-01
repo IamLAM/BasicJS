@@ -27,6 +27,9 @@ drinks.push("pepsi"); // push value, last value
 console.log(drinks);
 drinks.pop(); // delete the last value
 console.log(drinks);
+drinks.shift();
+console.log(drinks); //delete the first value
+
 
 
 console.log(a);
