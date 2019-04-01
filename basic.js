@@ -6,7 +6,7 @@ var middle = "Schnaider";
 var p = 'look this "rabbit"';
 var p2 = "\\look this \"lion\"";
 var drinks = ["vodka", "beer", "cognac", "wine"]; //simple array
-var drinks = [
+var drinks2 = [
     ["Beer", 1],
     ["milk"], 1
 ]; //multidimensional array
@@ -29,7 +29,8 @@ drinks.pop(); // delete the last value
 console.log(drinks);
 drinks.shift();
 console.log(drinks); //delete the first value
-
+drinks.unshift("crunch");
+console.log(drinks); //delete the first value
 
 
 console.log(a);
@@ -38,3 +39,11 @@ console.log(name + middle);
 console.log(p2.length); //letters count
 console.log(p2[0]); //letters count
 console.log(numbers[3][0]); //access a multi array
+
+//functions
+function hi() {
+    //classic function
+    console.log("Follow the leader, leader!");
+}
+
+hi();
