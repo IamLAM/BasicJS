@@ -342,3 +342,8 @@ function lookUpProfile(name, prop) {
 
 var resultado = lookUpProfile("Akira", "likes");
 console.log(resultado);
+
+//some extra functions
+
+var mat = Math.floor(Math.random() * 9);
+console.log(mat);
