@@ -220,3 +220,5 @@ console.log(cat.name);
 console.log(cat.friends);
 console.log(cat["name"]);
 console.log(cat["friends"]);
+cat.name = "Tiger Woods"; //updating name
+console.log(cat.name);
