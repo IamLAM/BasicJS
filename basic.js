@@ -275,3 +275,11 @@ var myMusic = [{
     }
 ];
 console.log(myMusic[1].artist); //accessing nested objects
+
+//loops
+var i = 0;
+while (i < 5) {
+    console.log("ja");
+    i++;
+
+}
