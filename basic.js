@@ -119,6 +119,23 @@ function conditionsE(a, b) {
 var con = conditionsE(5, "5");
 console.log(con);
 
+
+
+//ternary operator
+function conditionsT(a, b) {
+
+    return (a === b ? true : false);
+
+}
+
+
+var con = conditionsT(5, "5"); //verify type === and value .
+console.log("ternary:" + con);
+
+
+
+
+
 //
 function operators(a, b) {
 
