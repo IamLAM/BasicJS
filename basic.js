@@ -224,3 +224,5 @@ cat.name = "Tiger Woods"; //updating name
 console.log(cat.name);
 cat.run = "too fast";
 console.log(cat);
+delete cat.legs;
+console.log(cat);
