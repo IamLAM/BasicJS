@@ -274,3 +274,4 @@ var myMusic = [{
 
     }
 ];
+console.log(myMusic[1].artist); //accessing nested objects
