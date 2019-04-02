@@ -130,6 +130,7 @@ function conditionsT(a, b) {
 
 
 var con = conditionsT(5, "5"); //verify type === and value .
+// multiple conditions     return (a>0) ? "positive": (a<0) ? "negative":"zero";
 console.log("ternary:" + con);
 
 
