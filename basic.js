@@ -286,3 +286,9 @@ while (i < 5) {
 
 for (i = 1; i < 5; i++)
     console.log("ja");
+
+do {
+
+    console.log(ja);
+    i++;
+} while (i < 5);
