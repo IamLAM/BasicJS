@@ -63,6 +63,16 @@ function greetings() {
 var g = greetings()
 console.log(g);
 
+// function and return boolean values
+
+function bool(a, b) {
+
+    return a < b;
+
+}
+
+bool(5, 10);
+
 
 
 //local and global scope
@@ -193,3 +203,5 @@ switch (val) {
         console.log("Many many letters a");
 
 }
+
+//
