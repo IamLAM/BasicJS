@@ -172,3 +172,22 @@ function golfScore(par, strokes) {
 // Change these values to test
 var gS = golfScore(5, 5);
 console.log(gS);
+
+//conditional switch
+var val = 2;
+switch (val) {
+
+    case 1:
+        console.log("a");
+        break;
+    case 2:
+        console.log("aa");
+        break;
+    case 3:
+        console.log("aaa");
+        break;
+    case 4:
+        console.log("aaaa");
+        break;
+
+}
