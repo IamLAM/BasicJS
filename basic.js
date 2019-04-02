@@ -347,3 +347,4 @@ console.log(resultado);
 
 var mat = Math.floor(Math.random() * 9);
 console.log(mat);
+//if you need a range var n=Math.floor(Math.random()*(myMax-myMin+1))+myMin;
