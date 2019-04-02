@@ -222,3 +222,5 @@ console.log(cat["name"]);
 console.log(cat["friends"]);
 cat.name = "Tiger Woods"; //updating name
 console.log(cat.name);
+cat.run = "too fast";
+console.log(cat);
