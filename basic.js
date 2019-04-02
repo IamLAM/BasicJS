@@ -245,3 +245,32 @@ function checkObj(checkProp) {
 // Test your code by modifying these values
 var check = checkObj("gift");
 console.log(check);
+
+//complex objects
+var myMusic = [{
+        "artist": "Billy Joel",
+        "title": "Piano Man",
+        "release_year": 1973,
+        "formats": [
+            "CD",
+            "8T",
+            "LP"
+        ],
+        "gold": true
+    },
+
+
+    {
+        "artist": "ACDC",
+        "title": "Thunderstruck",
+        "release_year": 1980,
+        "formats": [
+            "MP3",
+            "DVD"
+
+        ],
+        "gold": false
+
+
+    }
+];
