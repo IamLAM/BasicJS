@@ -211,10 +211,12 @@ var cat = {
     "name": "firulais",
     "legs": 4,
     "tails": 1,
-    friends: ["human", "nobody"]
+    friends: ["human", "nobody"] // i can put quotation marks or not "friends"
 
 
 };
 
 console.log(cat.name);
 console.log(cat.friends);
+console.log(cat["name"]);
+console.log(cat["friends"]);
