@@ -189,5 +189,7 @@ switch (val) {
     case 4:
         console.log("aaaa");
         break;
+    default:
+        console.log("Many many letters a");
 
 }
